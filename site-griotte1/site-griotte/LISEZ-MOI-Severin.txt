@@ -1,0 +1,21 @@
+Mise à jour du site griottecine.com (12 novembre 2026)
+
+Nouveautés : formulaire « Nous écrire » (Netlify Forms), photos qui s'agrandissent au clic, 3 articles de blog (dossier blog/), page merci.html.
+
+1. METTRE À JOUR LE SITE
+   Netlify > projet griottecine > onglet « Deploys » > glisser le dossier site-griotte complet dans la zone « Drag and drop your project folder here ».
+   (On remplace tout le site ; le domaine et le HTTPS restent en place.)
+
+2. FORMULAIRE : il passe par FormSubmit (gratuit), plus besoin des Forms Netlify.
+   Netlify > projet > « Forms » > « Enable form detection », puis redéployer (refaire l'étape 1).
+   Le formulaire « contact » doit apparaître dans l'onglet Forms après le redéploiement.
+
+3. RECEVOIR LES MESSAGES PAR COURRIEL
+   Netlify > Project configuration > Notifications > Emails and webhooks > Form submission notifications
+   > Add notification > Email notification > Event : New form submission > courriel : griottecine@gmail.com > formulaire : contact.
+
+4. TESTER
+   Ouvrir https://griottecine.com, remplir le formulaire, vérifier l'arrivée de la page Merci et du courriel.
+   Vérifier les liens « Lire l'article » dans la section Blog.
+
+Ne rien publier d'autre sans l'accord de Vicky.
